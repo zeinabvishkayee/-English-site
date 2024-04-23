@@ -1,0 +1,132 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family;'Byekan';
+    src: url('../fonts/lalezar.ttf')
+    format('truetype'),
+    url('../fonts/lalezar.woff') format('woff')  
+}
+body{
+    font-family: Byekan;
+}
+.header{
+    height: 550px;
+    background-image: url('https://png.pngtree.com/thumb_back/fh260/back_our/20190621/ourmid/pngtree-english-winter-vacation-training-background-image_186800.jpg');
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 30px;
+   text-align: center;
+   color: rgb(14, 13, 13);
+    
+}
+.header .nav-list{
+    list-style-type: none;
+   
+}
+.header .nav-list .nav-item{
+    display: inline-block;
+    padding: 15px;
+}
+.header .nav-list .nav-item:hover{
+   color:rgb(255, 60, 0);
+   cursor: pointer;
+
+}
+.header .title{
+    font-size: 60px;
+    font-family:lalezar;
+    margin-top: 70px;
+    
+}
+.header .title .span{
+    color: rgb(255, 60, 0);
+}
+.header .desc{
+width: 450px;
+margin: 60px auto;
+height: 55px;
+line-height: 55px;
+background-color:rgba(0,0,0,0.2);
+border-radius:30px;
+border:1px solid rgb(211, 202, 202) ;
+}
+.members{
+text-align: center;
+padding: 50px 30px;
+}
+.members .member-list{
+    list-style-type: none;
+    margin-top:40px;
+    
+   
+}
+.member-item{
+    width: 250px;
+    display: inline-block;
+    margin: 10px;
+    box-shadow: 0 0 25px rgba(10, 1, 1, 0.2);
+    border-radius: 15px;
+  
+}
+.member-pic{
+   width: 100%; 
+   border-radius: 18px;
+}
+.elementary{
+    height: 170px;
+    margin-bottom: 15px;
+}
+
+
+.member-bio{
+    padding: 25px;
+    text-align: justify;
+}
+
+.member-name{
+    font-size: 25px;
+    margin-top: 8px;
+}
+.members .member-name .link{
+    text-decoration: none;
+}
+.member-name >.link:hover{
+   color:rgb(255, 60, 0);
+}
+
+
+.about{
+    height: 700px;
+    background-image: url("https://img.freepik.com/premium-vector/english-language-learning-dark-background_651276-157.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(255, 60, 0);
+    padding-top: 60px;
+    background-blend-mode: multiply;
+}
+.circle{
+    width: 500px;
+    height: 500px;
+ 
+    background-color: rgba(207, 149, 24, 0.6);
+ 
+    margin: auto;
+    border-radius: 50%;
+    text-align: center;
+    padding:100px 120px ;
+    color:rgb(211, 202, 202);
+
+}
+.circle p{
+   margin: 40px 0; 
+   text-align: justify;
+  color:orange;
+}
+.circle h2{
+    font-size: 35px;
+  color:orange;
+}
